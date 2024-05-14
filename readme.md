@@ -39,7 +39,7 @@ Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti 
     - altrimenti(else) "Oh no, devo uscire a comprare il cocomero!"
 
   Esercizio 2 - Coda dell'array
-  1) Creiamo un array chiedendo all'utente il numero di elmenti che il nostro array dovrà contenere con un ciclo
+  1) Creiamo un array chiedendo all'utente il numero di elmenti che il nostro array dovrà contenere
   2) generiamo numeri casuali (compresi tra 1 e 100 ) per quanti sono gli elementi definiti dall'utente 
   3) Stampiamo poi solo gli ultimi 5 elementi dell'array tramite un metodo che permette di stamparci un array senza modificarlo in alcun modo
 
