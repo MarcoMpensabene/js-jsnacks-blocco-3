@@ -6,12 +6,20 @@ let arrayB = [1  , 2 , 3 , 4 ,5 , 11 ,23 ,45 ,66 ,77 ];
 let arrayShorter;
 let arrayLonger;
 
+console.log(arrayA , arrayB)
+
 if(arrayA.length === arrayB.length){
     console.log("Sono UGUALI!")
 } else if(arrayA.length > arrayB.length){
-    arrayB = arrayShorter;
-    arrayA = arrayLonger;
+    arrayShorter = arrayB;
+    arrayLonger = arrayA;
 } else {
-    arrayA = arrayShorter;
-    arrayB = arrayLonger
+    arrayShorter = arrayA;
+    arrayLonger = arrayB;
 }
+
+while(arrayShorter < arrayLonger){
+    arrayShorter.push(Math.floor(Math.random * 100) + 1);
+    
+}
+console.log(arrayA, arrayB)
