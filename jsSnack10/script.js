@@ -5,7 +5,6 @@ let arrayB = [1  , 2 , 3 , 4 ,5 , 11 ,23 ,45 ,66 ,77 ];
 
 let arrayShorter;
 let arrayLonger;
-
 console.log(arrayA , arrayB)
 
 if(arrayA.length === arrayB.length){
@@ -18,8 +17,7 @@ if(arrayA.length === arrayB.length){
     arrayLonger = arrayB;
 }
 
-while(arrayShorter < arrayLonger){
-    arrayShorter.push(Math.floor(Math.random * 100) + 1);
-    
+while(arrayShorter.length < arrayLonger.length){
+    arrayShorter.push(55);
 }
 console.log(arrayA, arrayB)
