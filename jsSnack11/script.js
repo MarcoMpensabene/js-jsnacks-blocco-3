@@ -8,7 +8,7 @@ while(somma < 50){
     let userNum = Number.parseInt(prompt("inserisci un numero") , 10);
     if (userNum !== NaN){
         userArray.push(userNum);
-        somma += userNum;
+        somma = somma + userNum;
     }
 }
 
