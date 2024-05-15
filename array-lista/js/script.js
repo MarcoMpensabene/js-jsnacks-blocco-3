@@ -3,13 +3,13 @@ const userFrigo = ['banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino',
 let coco = "cocomero";
 userFrigo.push("pesca");
 console.log(userFrigo);
-let foundCoco = true;
+let foundCoco = false;
 for (let i = 0 ; i <userFrigo.length ; i++){
     if (coco === userFrigo[i]){
-        foundCoco = false;
+        foundCoco = true;
     }
 }
-if (foundCoco === false) {
+if (foundCoco === true) {
     console.log("Trovato! Devo solo preparare il cocktail.");
 } else {
     console.log( "Oh no, devo uscire a comprare il cocomero!");
