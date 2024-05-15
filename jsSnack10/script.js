@@ -5,3 +5,13 @@ let arrayB = [1  , 2 , 3 , 4 ,5 , 11 ,23 ,45 ,66 ,77 ];
 
 let arrayShorter;
 let arrayLonger;
+
+if(arrayA.length === arrayB.length){
+    console.log("Sono UGUALI!")
+} else if(arrayA.length > arrayB.length){
+    arrayB = arrayShorter;
+    arrayA = arrayLonger;
+} else {
+    arrayA = arrayShorter;
+    arrayB = arrayLonger
+}
