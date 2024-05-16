@@ -7,11 +7,14 @@ console.log(userWordA , userWordB);
 
 function sameLenght(wordA , wordB){
     if(wordA.lenght === wordB.lenght){
-    return  risultato = console.log(wordA , wordB);
+    let risultato = console.log(wordA , wordB);
+        return  risultato ;
     } else if(wordA.lenght > wordB.lenght){
-    return   risultato = console.log(wordA);
+    let risultatoB = console.log(wordA);
+        return  risultatoB;
     }else {
-    return  risultato = console.log(wordB);
+        let risultatoC = console.log(wordB);
+        return risultatoC;
     }
 }
 
