@@ -18,7 +18,7 @@ function sameLenght(wordA , wordB){
     }
 }
 
-let lunghezza = sameLenght(userWordA , userWordB);
+let lunghezza = sameLenght(userWordA.length , userWordB.length);
 
 console.log(lunghezza)
 
