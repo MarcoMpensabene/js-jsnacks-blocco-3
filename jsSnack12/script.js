@@ -5,20 +5,33 @@ let userWordB = prompt("Inserisci la seconda parola");
 
 console.log(userWordA , userWordB);
 
-function sameLenght(wordA , wordB){
-    if(wordA.lenght === wordB.lenght){
-    let risultato = console.log(wordA , wordB);
-        return  risultato ;
-    } else if(wordA.lenght > wordB.lenght){
-    let risultatoB = console.log(wordA);
-        return  risultatoB;
-    }else {
-        let risultatoC = console.log(wordB);
-        return risultatoC;
-    }
-}
+//     function sameLenght(wordA , wordB){
+//    if(wordA.lenght === wordB.lenght){
+//    let risultato = console.log(wordA , wordB);
+//        return  risultato;
+//    } else if(wordA.lenght > wordB.lenght){
+//    let risultatoB = console.log(wordA);
+//        return  risultatoB;
+//    }else {
+//        let risultatoC = console.log(wordB);
+ //       return risultatoC;
+ //   }
+// }
 
-let lunghezza = sameLenght(userWordA.length , userWordB.length);
+    function sameLenght(wordA , wordB){
+        if(wordA.lenght === wordB.lenght){
+            return true; }
+            else {
+            return false;
+            }
+        }
 
-console.log(lunghezza)
 
+
+    if(sameLenght(userWordA.length , userWordB.length) === true){
+        console.log(userWordA , userWordB)}
+        else if (wordA.lenght > wordB.lenght) {
+            console.log(wordA);
+        } else {
+            console.log(wordB);
+        }
