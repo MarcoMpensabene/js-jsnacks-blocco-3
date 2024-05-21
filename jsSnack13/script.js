@@ -3,12 +3,12 @@
 let userNumber = Number.parseInt(prompt("type a number") , 10);
 
 function numberInverter(num , reverse){
-// Inizializziamo al variabile
+// Inizializziamo la variabile
 reverse = 0;
 
 while(num>0){
     // Ottieni la crifra più esterna da destra 
-    rightmost = num%10;
+    let rightmost = num%10;
     
     reverse = reverse*10 + rightmost;
     
