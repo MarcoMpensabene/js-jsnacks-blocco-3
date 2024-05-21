@@ -5,9 +5,8 @@ let divEl = document.querySelector("div")
 const timer = setInterval(myTime , 1000);
 
 function myTime() {
-
 if (userSecond > 10 || isNaN(userSecond)){
-    userSecond = 9;
+    userSecond = 5;
 }
 userSecond--;
 let pEl = document.createElement("p")
