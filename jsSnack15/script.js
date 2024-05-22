@@ -13,5 +13,10 @@ console.log(palla.Nome , palla.Peso)
 
 let element = prompt("Inserisci il peso della palla")
 
-palla.Peso = element;
+let changepeso = myPeso(element , palla.Peso);
+palla.Peso = changepeso;
+function myPeso(element , peso){
+    peso = element;
+    return peso;
+}
 console.log(palla.Peso)
