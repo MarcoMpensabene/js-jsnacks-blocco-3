@@ -39,10 +39,11 @@ const people = [
 const canDrive = people.map((drivers) =>{
     if(drivers.età > 18){
         drivers.età ="può guidare"
-        return  drivers.nome +"-"+drivers.cognome+"-"+drivers.età;
+        return  drivers.nome +" "+drivers.cognome+" "+drivers.età;
     } 
     drivers.età = "non può guidare"
-    return drivers.nome +"-"+drivers.cognome+"-"+drivers.età;
+    return drivers.nome +" "+drivers.cognome+" "+drivers.età;
 })
 
+console.log(people)
 console.log(canDrive)
