@@ -29,7 +29,7 @@ const longZucchine = zucchine.filter(zucchineL => {
     } 
 })
 
-console.log(longZucchine , pesoLong)
+console.log(longZucchine )
 
 const smallZucchine = zucchine.filter(zucchineL => {
     if (zucchineL.lunghezza < 8){
