@@ -15,20 +15,26 @@ const zucchine = [
     {varieta : "varietàB" , peso : 240 , lunghezza : 11 },
     {varieta : "varietàD" , peso : 302 , lunghezza : 14 },
     {varieta : "varietàE" , peso : 350 , lunghezza : 15 },
-]
+];
+let pesos= 0;
+zucchine.forEach((zucchina) => {
+    pesos += zucchina.peso;
+})
 
+
+console.log(pesos)
 const longZucchine = zucchine.filter(zucchineL => {
     if (zucchineL.lunghezza > 8){
-        return zucchineL
+        return zucchineL;
     } 
 })
 
-console.log(longZucchine)
+console.log(longZucchine , pesoLong)
 
 const smallZucchine = zucchine.filter(zucchineL => {
     if (zucchineL.lunghezza < 8){
-        return zucchineL
+        return zucchineL;
     } 
 })
 
-console.log(smallZucchine)
+console.log(smallZucchine);
